@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff; /* Light sky blue background */
+  padding: 20px;
+  width: 200px; /* Increased width for better content spacing */
+  color: #333; /* Dark text color */
+  border-radius: 10px; /* Rounded corners for the body */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+  font-size: 24px; /* Larger heading for emphasis */
+  margin-bottom: 20px; /* Increased margin for spacing */
+  color: #007e90; /* Teal color for heading */
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px; /* Increased margin for spacing */
+  color: #666;
+}
+
+select {
+  width: calc(100% - 20px); /* Adjusted width for better alignment */
+  margin-top: 5px;
+  padding: 10px; /* Increased padding for better touch target */
+  font-size: 16px; /* Larger font size for better readability */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Slightly rounded corners */
+  background-color: #fff;
+  color: #555; /* Darker text color */
+}
+
+button {
+  margin-top: 20px; /* Increased margin for spacing */
+  width: 100%;
+  padding: 12px; /* Increased padding for better touch target */
+  font-size: 16px; /* Larger font size for emphasis */
+  background-color: #00b4c6; /* Turquoise button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px; /* Slightly rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #007e90; /* Darker turquoise on hover */
+}
+
+p.copyright {
+  margin-top: 25px; /* Increased margin for spacing */
+  font-size: 14px; /* Slightly larger font size */
+  color: #888; /* Lighter text color */
+  text-align: center;
+}
+
+

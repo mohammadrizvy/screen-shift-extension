@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Shift",
+  "version": "1.0",
+  "description": "Test how websites look and behave on different screen sizes and devices.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/0128.png"
+    }
+  }
+}
